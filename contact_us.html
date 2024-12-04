@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Nova - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="images/logo.png" alt="Pizza Nova Logo">
+        <h1>Pizza Nova</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="location.html">Location</a>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us!</p>
+        
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+        <h3>Reach us at:</h3>
+        <p>Email: <a href="mailto:contact@pizzanova.com">contact@pizzanova.com</a></p>
+        <p>Phone: (416) 439-0000</p>
+        <p>Follow us on:
+            <a href="https://facebook.com/pizzanova" target="_blank">Facebook</a>,
+            <a href="https://instagram.com/pizzanova" target="_blank">Twitter</a>,
+            <a href="https://x.com/pizzanova" target="_blank">Instagram</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; COMP213 Fall 2024 | Individual Project: Created by Orlando Maldonado (301500768) | Images from PizzaNova.com & Google Images | All credit to Pizza Nova</p>
+    </footer>
+</body>
+</html>
